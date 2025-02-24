@@ -1,0 +1,101 @@
+
+
+.box1 {
+    width: 400px;
+    height: 100px;
+    padding: 20px; 
+    border: 10px dotted red;
+    box-sizing: content-box;
+}
+
+.box2 {
+    width: 400px;
+    height: 100px;
+    padding: 20px; 
+    border: 10px dashed rgb(48, 3, 129);
+    box-sizing: content-box;
+}
+
+.box3 {
+    width: 400px;
+    height: 100px;
+    padding: 20px; 
+    border: 10px solid #a5f117;
+    box-sizing: content-box;
+}
+
+.box4 {
+    width: 400px;
+    height: 100px;
+    padding: 20px; 
+    border: 10px double rgb(161, 10, 98);
+    box-sizing: content-box;
+}
+
+.box5 {
+    width: 400px;
+    height: 100px;
+    padding: 20px; 
+    border: 10px groove rgb(90, 188, 245);
+    box-sizing: content-box;
+}
+
+.box6 {
+    width: 200px;
+    height: 200px;
+    padding: 20px; 
+    border: 10px solid rgb(80, 239, 17);
+    border-radius: 50%;
+    box-sizing: content-box;
+}
+
+.box7 {
+    width: 150px;
+    height: 150px;
+    padding: 20px; 
+    border: 10px solid rgb(242, 15, 15);
+    border-top-right-radius:70%;
+    border-bottom-left-radius: 70%;
+    box-sizing: content-box;
+}
+.box8 {
+    width: 150px;
+    height: 150px;
+    padding: 20px; 
+    border: 10px solid rgb(242, 15, 15);
+    border-top-left-radius:70%;
+    border-bottom-right-radius: 70%;
+    box-sizing: content-box;
+}
+
+.parent{
+    background-color: #e7cbcb;
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.parent .child{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    font-size: 80px;
+} 
+
+.parent1{
+    background-color: silver;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+} 
+.parent1 .child1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 100px;
+} 
