@@ -1,7 +1,7 @@
 .box1 {
   width:200px
   height:200px
-  border:10px dotted 
+  border:10px solid; red
   border-radius:0
   border-color: red;
 }
