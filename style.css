@@ -1,9 +1,70 @@
+
 .box1 {
-  width:200px
-  height:200px
-  border:10px solid; red
-  border-radius:0
-  border-color: red;
+    width: 400px;
+    height: 100px;
+    padding: 20px; 
+    border: 10px dotted red;
+    box-sizing: content-box;
+}
+
+.box2 {
+    width: 400px;
+    height: 100px;
+    padding: 20px; 
+    border: 10px dashed rgb(48, 3, 129);
+    box-sizing: content-box;
+}
+
+.box3 {
+    width: 400px;
+    height: 100px;
+    padding: 20px; 
+    border: 10px solid #a5f117;
+    box-sizing: content-box;
+}
+
+.box4 {
+    width: 400px;
+    height: 100px;
+    padding: 20px; 
+    border: 10px double rgb(161, 10, 98);
+    box-sizing: content-box;
+}
+
+.box5 {
+    width: 400px;
+    height: 100px;
+    padding: 20px; 
+    border: 10px groove rgb(90, 188, 245);
+    box-sizing: content-box;
+}
+
+.box6 {
+    width: 200px;
+    height: 200px;
+    padding: 20px; 
+    border: 10px solid rgb(80, 239, 17);
+    border-radius: 50%;
+    box-sizing: content-box;
+}
+
+.box7 {
+    width: 150px;
+    height: 150px;
+    padding: 20px; 
+    border: 10px solid rgb(242, 15, 15);
+    border-top-right-radius:70%;
+    border-bottom-left-radius: 70%;
+    box-sizing: content-box;
+}
+.box8 {
+    width: 150px;
+    height: 150px;
+    padding: 20px; 
+    border: 10px solid rgb(242, 15, 15);
+    border-top-left-radius:70%;
+    border-bottom-right-radius: 70%;
+    box-sizing: content-box;
 }
 
 .football-field {
